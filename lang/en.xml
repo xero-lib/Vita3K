@@ -275,8 +275,8 @@ Connect a controller that is compatible with SDL2.</not_connected>
 			<save name="Save">
 				<cancel_saving>Do you want to cancel saving?</cancel_saving>
 				<could_not_save>Could not save the file.
-There is not enough free space on the memory card.</could_not_save>
-				<not_free_space>There is not enough free space on the memory card.</not_free_space>
+There is not enough free space on the disk.</could_not_save>
+				<not_free_space>There is not enough free space on the disk.</not_free_space>
 				<new_saved_data>New Saved Data</new_saved_data>
 				<saving_complete>Saving complete.</saving_complete>
 				<save_the_data>Do you want to save the data?</save_the_data>
@@ -289,7 +289,7 @@ Do not power off the system or close the application.</warning_saving>
 	</dialog>
 
 	<game_data>
-		<app_close>The following application will close.</app_close>
+		<app_close>The following application will close:</app_close>
 		<data_delete>Data to be Deleted:</data_delete>
 	</game_data>
 
@@ -340,8 +340,7 @@ Your Vita3K system is ready!</completed_setup>
 		<no_font_exist>No firmware font package present.
 Please download and install it.</no_font_exist>
 		<download_firmware_font_package>Download Firmware Font Package</download_firmware_font_package>
-		<firmware_font_package_note>Firmware font package is mandatory for some applications and also for Asian region font support in GUI.
-It is also generally recommended for GUI.</firmware_font_package_note>
+		<firmware_font_package_note>Firmware font package is mandatory for some applications and also for Asian regional font support. (Generally Recommended)</firmware_font_package_note>
 		<delete_fw>Delete the firmware installation file?</delete_fw>
 		<select_key_type>Select key type</select_key_type>
 		<select_work>Select work.bin</select_work>
@@ -355,11 +354,11 @@ It is also generally recommended for GUI.</firmware_font_package_note>
 		<select_install_type>Select install type</select_install_type>
 		<select_file>Select File</select_file>
 		<select_directory>Select Directory</select_directory>
-		<compatible_content>archive(s) found with compatible contents.</compatible_content>
-		<successed_install_archive>contents of this archive have successed installed:</successed_install_archive>
+		<compatible_content>Archive(s) found with compatible contents.</compatible_content>
+		<successed_install_archive>Archive content successfully installed:</successed_install_archive>
 		<update_app>Update App to:</update_app>
-		<failed_install_archive>content have failed installed:</failed_install_archive>
-		<not_compatible_content>archive(s) did no found compatible contents:</not_compatible_content>
+		<failed_install_archive>Failed to install archive content:</failed_install_archive>
+		<not_compatible_content>No compatible content found in archive(s):</not_compatible_content>
 		<delete_archive>Delete archive?</delete_archive>
 		<select_license_type>Select license type</select_license_type>
 		<select_bin_rif>Select work.bin/rif</select_bin_rif>
@@ -439,11 +438,11 @@ It is also generally recommended for GUI.</firmware_font_package_note>
 	<trophy_collection>
 		<search>Search</search>
 		<delete_trophy>Delete Trophy</delete_trophy>
-		<trophy_deleted>This trophy information saved on this user will be deleted.</trophy_deleted>
+		<trophy_deleted>Trophy information saved for this user will be deleted.</trophy_deleted>
 		<details>Details</details>
 		<earned>Earned</earned>
 		<name>Name</name>
-		<no_trophies>There are no trophies.
+		<no_trophies>No trophies found for this user.
 You can earn trophies by using an application that supports the trophy feature.</no_trophies>
 		<not_earned>Not Earned</not_earned>
 		<original>Original</original>
@@ -459,11 +458,11 @@ You can earn trophies by using an application that supports the trophy feature.<
 		<create_user>Create User</create_user>
 		<user_created>The following user has been created</user_created>
 		<edit_user>Edit User</edit_user>
-		<user_name_used>! This name is already in use.</user_name_used>
+		<user_name_used>This name is already in use.</user_name_used>
 		<delete_user>Delete User</delete_user>
 		<user_delete>Select the user you want to delete.</user_delete>
-		<user_delete_msg>The following user will be deleted.</user_delete_msg>
-		<user_delete_message>If you delete the user, that user's saved data, trophies will be deleted.</user_delete_message>
+		<user_delete_msg>The following user will be deleted:</user_delete_msg>
+		<user_delete_message>If you delete the user, that user's saved data (trophies, etc) will be deleted.</user_delete_message>
 		<user_delete_warn>The user will be deleted.
 Are you sure you want to continue?</user_delete_warn>
 		<user_deleted>User deleted.</user_deleted>
@@ -483,7 +482,7 @@ After the download is complete, Vita3K will restart automatically and then insta
 		<not_complete_update>Could not complete the update.</not_complete_update>
 		<next>Next</next>
 		<update_vita3k>Do you want to update Vita3K?</update_vita3k>
-		<later_version_already_installed>The later version of the Vita3K software is already installed.</later_version_already_installed>
+		<later_version_already_installed>This version of the Vita3K software is already installed.</later_version_already_installed>
 		<latest_version_already_installed>The latest version of the Vita3K is already installed.</latest_version_already_installed>
 		<new_features>New Features in Version {}</new_features>
 		<update>Update</update>
